@@ -1,22 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <script src="assets/js/enter.js" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="icon" href="assets/icons/github-mark-white.svg" type = "image/x-icon">
+    
+    <script src="assets/js/script.js" defer></script>
+    
+
+    <title>Sign in</title>
 </head>
 <body>
-  <div class="login-container">
-    <h2>Login</h2>
-    <form id="loginForm">
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required>
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password" required>
-      <button type="submit">Login</button>
-    </form>
-  </div>
+    <!-- <header>
+        <img id="logo" src="assets/icons/icon.svg">
+    </header> -->
+
+    <main id="container">
+        <!-- FORM -->
+        <form>
+            <!-- TITLE -->
+            <h1 id="title"> Sign in </h1>
+
+            <div class="input-container">
+                <!-- USER -->
+                <div class="input-container-simples">
+                    <label for="user"> Username </label>
+                    <input type="text" name="user" id="user" class="input">
+                </div>
+                <!-- PASSWORD -->
+                <div class="input-container-simples">
+                    <label for="password"> Password </label>
+                    <input type="password" name="password" id="password" class="input">
+                </div>
+            </div>
+
+            <!-- BUTTON -->
+            <button type="submit" id="submit_button"> Sign in </button>
+            <!-- <a href="./ProductPage/index.html" id="submit_button">Sign in</a> -->
+
+        </form>
+    </main>
+    
+    <!-- <footer>
+        <ul>
+            <li> <a href="#">Sobre</a> </li>
+        </ul>
+    </footer> -->
 </body>
 </html>
