@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
 }
-.login-container {
+.login-container, .success-container {
   width: 300px;
   margin: 0 auto;
   padding: 20px;
@@ -29,4 +29,11 @@ button {
   color: white;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+p {
+  text-align: center;
 }
