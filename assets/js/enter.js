@@ -6,7 +6,9 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
   
   // Aqui você pode adicionar sua lógica de validação
   if(username === 'user' && password === '123') {
-    window.location.href = '../../pages/success.html'; // Redireciona para a página de sucesso
+    // alert('Tudo Certo!');
+    window.location.href = 'pages/success.html';
+     // Redireciona para a página de sucesso
   } else {
     alert('Credenciais inválidas!');
   }
