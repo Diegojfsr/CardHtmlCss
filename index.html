@@ -1,40 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-  <title>Card - Tricodando Lab</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <div class="card">
-    <img src="assets/morango.jpg">
-    <!-- <div>
-      <h1>Morango</h1>
-      <h2>Frutas vermelhas</h2>
-      <span>R$ 5,50</span>
-      <button>Saiba mais</button>
-    </div> -->
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Login</button>
+    </form>
   </div>
-
-  <div class="card">
-    <img src="assets/melancia.jpg">
-    <!-- <div>
-      <h1>Melancia</h1>
-      <h2>Fruta refrescante</h2>
-      <span>R$ 4,30</span>
-      <button>Saiba mais</button>
-    </div> -->
-  </div>
-
-  <div class="card">
-    <img src="assets/uva.jpg">
-    <!-- <div>
-      <h1>Uva</h1>
-      <h2>Fonte de vitamina</h2>
-      <span>R$ 7,90</span>
-      <button>Saiba mais</button>
-    </div> -->
-  </div>
-  
+  <script src="script.js"></script>
 </body>
 </html>
